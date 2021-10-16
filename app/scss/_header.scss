@@ -1,0 +1,111 @@
+.header__top {
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 124px;
+        margin-top: -20px;
+    }
+    &-btn {
+        border: none;
+        background-color: $primary-color;
+        color: #fff;
+        padding: 14px 20px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    &-btnimg {
+        margin-right: 5px;
+        font-size: 15px;
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    &__link {
+        width: 145px;
+        height: 29px;
+        margin-right: 10px;
+    }
+}
+
+.menutop {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item-imgbox {
+        display: inline-block;
+        height: 100%;
+    }
+    &__item-img {
+        font-size: 20px;
+        color: $primary-color;
+        margin-right: 5px;
+    }
+    &__iten-text {
+        display: block;
+    }
+}
+.menubottom__img {
+    width: 16px;
+    height: 16px;
+}
+
+.header__bottom {
+    max-width: 1140px;
+	margin: 0 auto;
+    background-color: $primary-color;
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 10px 15px;
+        height: 60px;
+    }
+}
+.menubottom {
+    &__list {
+        display: flex;
+        align-items: center;
+        color: #fff;
+    }
+    &__item {
+        padding: 8px;
+        text-transform: uppercase;
+        & + .menubottom__item {
+            margin-left: 10px;
+        }
+        &--active {
+            background-color: #fff;
+            color: #000;
+        }
+    }
+    &__links {
+        height: 19px;
+    }
+    &__buttons-basket {
+        margin-left: 20px;
+    }
+    &__img {
+        width: 19px;
+        height: 100%;
+    }
+}

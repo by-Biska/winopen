@@ -51,7 +51,6 @@
     }
     &__item-imgbox {
         display: inline-block;
-        height: 100%;
     }
     &__item-img {
         font-size: 20px;
@@ -71,6 +70,17 @@
     max-width: 1140px;
 	margin: 0 auto;
     background-color: $primary-color;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    &--active {
+        position: fixed;
+        max-width: none;
+        margin: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
     &-inner {
         display: flex;
         justify-content: space-between;
@@ -90,8 +100,13 @@
     &__item {
         padding: 8px;
         text-transform: uppercase;
+        transition: all .3s;
         & + .menubottom__item {
-            margin-left: 10px;
+            margin-left: 20px;
+        }
+        &:hover {
+            background-color: #fff;
+            color: #000;
         }
         &--active {
             background-color: #fff;

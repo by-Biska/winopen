@@ -89,11 +89,11 @@
         outline: none;
         margin-bottom: 10px;
         background-color: #f6f6f6;
-        color: $text;
+        color: $title;
         border: 1px solid #e3e2e7;
         transition: all 0.3s ease-in-out;
         &::placeholder {
-            color: #79787f;
+            color: $text;
         }
         &:focus {
             background: #ffffff;

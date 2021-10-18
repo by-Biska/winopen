@@ -102,35 +102,51 @@
     </header>
 
     <main class="main">
-      <section class="first-section page-section">
+      <section class="hi-section page-section">
         <div class="container">
-          <div class="first-section__inner">
-            <div class="first-section__info">
-              <h2 class="first-section__info-title">QUALITY PRODUCTS
+          <div class="hi-section__inner">
+            <div class="hi-section__info">
+              <h2 class="hi-section__info-title">QUALITY PRODUCTS <br>
                 AT COMPETITIVE PRICES</h2>
-              <h1 class="first-section__info-callus">
-                <p class="first-section__info-callus-text">CALL US TODAY</p>
-                <a class="first-section__info-callus-phone" href="tel:7194452808">(719) 445-2808</a>
+              <h1 class="hi-section__info-callus">
+                <p class="hi-section__info-callus-text">CALL US TODAY</p>
+                <a class="hi-section__info-callus-phone" href="tel:7194452808">(719) 445-2808</a>
               </h1>
-              <div class="first-section__info-workhours">
-                <div class="first-section__info-imgbox">
-                  <i class="first-section__info-img far fa-clock"></i>
-                </div>
-                <div class="first-section__info-text">
-                  <p>
+              <div class="hi-section__info-workhours">
+                <div class="hi-section__info-workhours">
+                  <i class="hi-section__info-img far fa-clock"></i>
+                  <span class="hi-section__info-text">
                     Mon-Fri: 10 AM - 7 PM; Sat-Sun: 10 AM - 3 PM
-                  </p>
+                  </span>
                 </div>
               </div>
             </div>
-            <div class="first-section__request">
-              <div class="first-section__request-title">REQUEST A FREE ESTIMATE</div>
-              <form class="first-section__form">
-                <input class="first-section__form-name" type="text" name="name" placeholder="Name">
-                <input class="first-section__form-phone" type="tel" name="tel" placeholder="Phone">
-                <input class="first-section__form-email" type="email" name="email" placeholder="E-mail">
-                <input class="first-section__form-address" type="text" name="adress" placeholder="Address">
-                <button type="submit">Send</button>
+            <div class="hi-section__request">
+              <div class="hi-section__request-title">REQUEST A FREE ESTIMATE</div>
+              <form class="hi-section__form">
+                <div class="hi-section__form-input-wrapper">
+                  <input class="hi-section__form-input hi-section__form-name" type="text" name="name"
+                    placeholder="Name">
+                </div>
+
+                <div class="hi-section__form-input-wrapper has-error">
+                  <input class="hi-section__form-input hi-section__form-phone" type="tel" name="tel"
+                    placeholder="Phone">
+                    <span class="form-validation">The text field is required.</span>
+                </div>
+
+                <div class="hi-section__form-input-wrapper">
+                  <input class="hi-section__form-input hi-section__form-email" type="email" name="email"
+                    placeholder="E-mail">
+                    <span class="form-validation">The text field is required.</span>
+                </div>
+
+                <div class="hi-section__form-input-wrapper">
+                  <input class="hi-section__form-input hi-section__form-address" type="text" name="adress"
+                    placeholder="Address">
+                    <span class="form-validation">The text field is required.</span>
+                </div>
+                <button class="hi-section__form-btn button" type="submit">Send</button>
               </form>
             </div>
           </div>

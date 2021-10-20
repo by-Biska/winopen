@@ -1,0 +1,72 @@
+.footer {
+    color: #94929b;
+    &__top {
+        background: #1e1d24;
+    }
+    &__top-inner {
+        display: flex;
+        padding: 70px 0;
+    }
+    &__top-item {
+        width: 33.33%;
+        padding: 0 15px;
+    }
+    &__getquote-btn {
+        border: none;
+        margin-top: 30px;
+        color: #ffffff;
+        background-color: $secondary-color;
+        border-color: $secondary-color;
+        transition: all 0.3s;
+        &:hover {
+            background-color: $primary-color;
+            border-color: $primary-color;
+        }
+    }
+    &-title {
+        font-size: 18px;
+        line-height: 1.44444;
+        color: #fff;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    &__menu-item {
+        &:hover {
+            .footer__menu-img {
+                color: #fff;
+            }
+            .footer__menu-link {
+                color: $primary-color;
+            }
+        }
+    }
+    &__menu-img {
+        color: $primary-color;
+        transition: all 0.3s;
+        font-size: 10px;
+        margin-right: 6px;
+    }
+    &__menu-link {
+        transition: all 0.3s;
+    }
+    &__contacts-img {
+        color: #fff;
+        margin-right: 6px;
+    }
+    &__bottom {
+        background: #141419;
+        font-size: 12px;
+    }
+    &__bottom-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+    }
+    &__social-list {
+        display: flex;
+    }
+    &__social-item + &__social-item {
+        margin-left: 24px;
+    }
+}

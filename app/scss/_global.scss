@@ -27,6 +27,11 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
+.container-fluid {
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
 
 .display-none {
     display: none;
@@ -89,3 +94,4 @@ h6 {
     font-weight: 400;
     color: #79787f;
 }
+

@@ -8,5 +8,16 @@ $(window).scroll(function () {
   }
 });
 $('.workwith-slider').slick({
-  
+  arrows: false,
+  slidesToShow:6,
+  responsive: [
+    {
+      breakpoint: 1100,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        // dots: true
+      }
+    },
+  ]
 })

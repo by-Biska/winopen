@@ -1,0 +1,47 @@
+.what-section {
+    background-color: #f6f6f6;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 55px;
+    }
+    &__item {
+        max-width: 33.33%;
+        text-align: center;
+        padding: 0 15px;
+        &:hover {
+            .what-section__img {
+                transform: scale(1.02);
+                opacity: 0.8;
+            }
+        }
+    }
+    &__img-wrapper {
+        overflow: hidden;
+        max-height: 262px;
+        margin-bottom: 25px;
+    }
+    &__img {
+        transition: all 0.3s;
+        will-change: transform;
+        width: 100%;
+    }
+    &__item-title {
+        font-size: 18px;
+        line-height: 1.44444;
+        margin-bottom: 20px;
+    }
+    &__item-text {
+        margin-bottom: 25px;
+    }
+    &__btn {
+        border-color: $primary-color;
+        background-color: $primary-color;
+        color: #fff;
+        transition: all 0.3s;
+        &:hover {
+            border-color: $title;
+            background-color: $title;
+        }
+    }
+}

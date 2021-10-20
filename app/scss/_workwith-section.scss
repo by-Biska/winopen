@@ -1,0 +1,15 @@
+.workwith-section {
+    background-color: #f6f6f6;
+    .workwith-slider {
+        margin-top: 55px;
+    }
+    .workwith-slider__item {
+        text-align: center;
+        height: 77px;
+        line-height: 77px;
+    }
+    .workwith-slider__item-img {
+        display: inline-block !important;
+        vertical-align: middle;
+    }
+}

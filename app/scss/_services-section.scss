@@ -1,0 +1,41 @@
+.services-section {
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        margin-top: 55px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: row;
+    }
+    &__img-wrapper {
+        background: #f6f6f6;
+        width: 78px;
+        height: 78px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    &__img {
+        font-size: 32px;
+        line-height: 72px !important;
+        color: $primary-color;
+    }
+    &__info {
+        flex: 1;
+    }
+    &__info-text {
+        margin-top: 10px;
+        margin-bottom: 7px;
+    }
+    &__info-links {
+        color: $primary-color;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 0.04em;
+        font-weight: 600;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}

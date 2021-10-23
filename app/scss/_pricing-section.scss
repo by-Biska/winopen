@@ -1,0 +1,82 @@
+.pricing-section {
+    text-align: center;
+
+    &__text {
+        margin-top: 15px;
+        p + p {
+            margin-top: 12px;
+        }
+    }
+}
+
+.pricing-tables {
+    display: flex;
+    margin-top: 55px;
+    &__item {
+        max-width: 33.33333%;
+        margin: 0 15px;
+    }
+    &__top {
+        background-color: $primary-color;
+        color: #fff;
+        padding: 30px;
+    }
+    &__title {
+        color: inherit;
+        font-size: 22px;
+        line-height: 1.36364;
+        margin-bottom: 20px;
+    }
+    .price-box {
+        font-family: "Roboto", sans-serif;
+        background: url("../images/pricing-cost-bg.png") center no-repeat;
+        padding: 30px;
+    }
+    .price {
+        font-size: 27px;
+        line-height: 1;
+        &__cost {
+            font-size: 46px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        &__time {
+            font-size: 12px;
+            line-height: 1.5;
+            margin-top: 3px;
+        }
+    }
+    &__text {
+        color: inherit;
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+    &__bottom {
+        border: 1px solid #d4d4d4;
+        border-top: none;
+        padding: 30px;
+    }
+    &__menu-list {
+        text-align-last: left;
+    }
+    &__menu-item {
+        line-height: 27px;
+    }
+    &__menu-img {
+        margin-right: 5px;
+        color: $primary-color;
+        font-size: 11px;
+    }
+    &__btn {
+        color: #ffffff;
+        background-color: $secondary-color;
+        border-color: $secondary-color;
+        margin-top: 20px;
+        transition: all .3s;
+        width: 100%;
+        &:hover {
+            background-color: $title;
+            border-color: $title;
+        }
+    }
+}

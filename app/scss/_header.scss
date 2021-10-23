@@ -103,9 +103,9 @@
         color: #fff;
     }
     &__item {
-        padding: 8px;
         text-transform: uppercase;
         transition: all .3s;
+        cursor: pointer;
         & + .menubottom__item {
             margin-left: 20px;
         }
@@ -117,6 +117,10 @@
             background-color: #fff;
             color: #000;
         }
+    }
+    &__item-link {
+        display: inline-block;
+        padding: 8px;
     }
     &__links {
         height: 19px;

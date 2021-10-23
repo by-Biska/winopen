@@ -1,0 +1,18 @@
+.weoffer-section {
+    background-image: url("../images/bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 190px 0;
+    &__inner {
+        height: 143px;
+        max-width: 570px;
+        margin-left: auto;
+    }
+    &__title {
+        font-size: 46px;
+        line-height: 1.08696;
+        text-transform: none;
+        margin-bottom: 20px;
+    }
+}

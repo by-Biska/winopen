@@ -1,0 +1,24 @@
+.fewwords-section {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info,
+    &__img-wrapper {
+        max-width: 50%;
+        padding: 0 15px;
+    }
+    &__title {
+        font-size: 32px;
+        line-height: 1.1875;
+        margin-bottom: 15px;
+    }
+    &__menu-list {
+        margin-top: 20px;
+    }
+    &__menu-img {
+        color: $primary-color;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+}

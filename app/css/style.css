@@ -270,6 +270,25 @@ h6 {
   color: #1c62cd;
 }
 
+.form-validation {
+  display: none;
+  position: absolute;
+  top: 3px;
+  right: 8px;
+  z-index: 11;
+  color: #1c62cd;
+  font-size: 9px;
+  line-height: 12px;
+  transition: all 0.3s;
+}
+
+.has-error .hi-section__form-input {
+  border: 1px solid #1c62cd;
+}
+.has-error .form-validation {
+  display: block;
+}
+
 .header {
   height: 141px;
 }
@@ -465,26 +484,6 @@ h6 {
   display: flex;
   flex-direction: column;
 }
-.hi-section .form-validation {
-  display: none;
-  position: absolute;
-  top: 3px;
-  right: 8px;
-  z-index: 11;
-  color: #1c62cd;
-  font-size: 9px;
-  line-height: 12px;
-  transition: all 0.3s;
-}
-.hi-section__form-input-wrapper {
-  position: relative;
-}
-.hi-section__form-input-wrapper.has-error .hi-section__form-input {
-  border: 1px solid #1c62cd;
-}
-.hi-section__form-input-wrapper.has-error .form-validation {
-  display: block;
-}
 .hi-section__form-input {
   width: 100%;
   padding: 10px 19px;
@@ -511,6 +510,11 @@ h6 {
   background-color: #FF8B00;
   border-color: #FF8B00;
   display: block;
+}
+
+.hi-section__form-input-wrapper,
+.contact-form__input-wrapper {
+  position: relative;
 }
 
 .why-section__list {
@@ -979,24 +983,29 @@ h6 {
   padding: 15px 15px 15px 15px;
 }
 
-.aboutinfo-section {
+.aboutinfo-section,
+.contactinfo-section {
   background-color: #1c62cd;
   color: #fff;
 }
-.aboutinfo-section__list {
+.aboutinfo-section__list,
+.contactinfo-section__list {
   display: flex;
 }
-.aboutinfo-section__item {
+.aboutinfo-section__item,
+.contactinfo-section__item {
   flex: 0 0 33.33333%;
   max-width: 33.33%;
   display: flex;
   align-items: center;
   padding: 0 15px;
 }
-.aboutinfo-section__item:hover .aboutinfo-section__img-wrapper {
+.aboutinfo-section__item:hover .aboutinfo-section__img-wrapper,
+.contactinfo-section__item:hover .aboutinfo-section__img-wrapper {
   box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3);
 }
-.aboutinfo-section__img-wrapper {
+.aboutinfo-section__img-wrapper,
+.contactinfo-section__img-wrapper {
   text-align: center;
   width: 77px;
   height: 77px;
@@ -1007,19 +1016,23 @@ h6 {
   color: #1c62cd;
   transition: all 0.3s;
 }
-.aboutinfo-section__info {
+.aboutinfo-section__info,
+.contactinfo-section__info {
   padding-left: 20px;
 }
-.aboutinfo-section__title {
+.aboutinfo-section__title,
+.contactinfo-section__title {
   color: inherit;
   text-transform: none;
   font-size: 16px;
   line-height: 1.5;
 }
-.aboutinfo-section__text {
+.aboutinfo-section__text,
+.contactinfo-section__text {
   color: inherit;
 }
-.aboutinfo-section a:hover {
+.aboutinfo-section a:hover,
+.contactinfo-section a:hover {
   text-decoration: underline;
 }
 

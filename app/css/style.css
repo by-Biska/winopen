@@ -249,6 +249,27 @@ h6 {
   color: #79787f;
 }
 
+.tags {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.64286;
+  font-weight: 400;
+}
+.tags__author {
+  color: #1c62cd;
+  transition: all 0.3s;
+}
+.tags__author:hover {
+  text-decoration: underline;
+}
+.tags__category {
+  transition: all 0.3s;
+}
+.tags__category:hover {
+  color: #1c62cd;
+}
+
 .header {
   height: 141px;
 }
@@ -772,26 +793,6 @@ h6 {
 }
 .news-section__info {
   padding-top: 20px;
-}
-.news-section__tags {
-  margin-bottom: 10px;
-  font-size: 12px;
-  font-family: "Roboto", sans-serif;
-  line-height: 1.64286;
-  font-weight: 400;
-}
-.news-section__tags-author {
-  color: #1c62cd;
-  transition: all 0.3s;
-}
-.news-section__tags-author:hover {
-  text-decoration: underline;
-}
-.news-section__tags-category {
-  transition: all 0.3s;
-}
-.news-section__tags-category:hover {
-  color: #1c62cd;
 }
 .news-section__item-title {
   display: block;

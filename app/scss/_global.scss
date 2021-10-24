@@ -28,9 +28,9 @@ body {
     padding: 0 15px;
 }
 .container-fluid {
-	max-width: 1920px;
-	margin: 0 auto;
-	padding: 0 10px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .display-none {
@@ -98,3 +98,23 @@ h6 {
     color: #79787f;
 }
 
+.tags {
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.64286;
+    font-weight: 400;
+    &__author {
+        color: $primary-color;
+        transition: all 0.3s;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &__category {
+        transition: all 0.3s;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}

@@ -131,10 +131,53 @@ h6 {
     transition: all 0.3s;
 }
 .has-error {
-    .hi-section__form-input {
+    input,
+    textarea {
         border: 1px solid $primary-color;
     }
     .form-validation {
         display: block;
     }
+}
+
+.breadcrumbs {
+    background: url("../images/breadcrumbs-bg.png");
+    background-position: center;
+    padding: 35px 0;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        font-size: 18px;
+        line-height: 1.44444;
+    }
+    &__box {
+        display: flex;
+    }
+    &__here {
+        margin-right: 10px;
+    }
+    &__list {
+        display: flex;
+        text-transform: uppercase;
+    }
+    &__list-item {
+        padding-right: 15px;
+        position: relative;
+        &:last-child {
+            text-decoration: underline;
+        }
+        &::after {
+            position: absolute;
+            content: "/";
+            right: 5px;
+        }
+        &:last-child::after {
+            display: none;
+        }
+    }
+}
+.header__bottom {
+    transform: translateY(0) !important;
 }

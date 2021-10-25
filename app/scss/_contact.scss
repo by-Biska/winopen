@@ -1,0 +1,74 @@
+.contactinfo-section {
+    background-color: #fff;
+    color: $title;
+    &__img-wrapper {
+        background-color: $primary-color;
+    }
+    &__img {
+        color: #fff;
+    }
+    &__text {
+        color: $text;
+    }
+}
+.contact-form {
+    padding-bottom: 90px;
+    &__form {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    &__input-box {
+        max-width: 50%;
+        flex: 50%;
+        margin-right: 30px;
+    }
+    &__input-wrapper + &__input-wrapper {
+        margin-top: 20px;
+    }
+    &__input {
+        width: 100%;
+        min-height: 45px;
+        padding: 10px 19px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0;
+        color: #79787f;
+        background-color: #f6f6f6;
+        transition: 0.3s ease-in-out;
+        border: 1px solid #e3e2e7;
+    }
+    &__textarea-wrapper {
+        max-width: 50%;
+        flex: 50%;
+    }
+    &__textarea {
+        height: 135px;
+        min-height: 45px;
+        max-height: 230px;
+        width: 100%;
+        padding: 10px 19px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0;
+        color: #79787f;
+        background-color: #f6f6f6;
+        transition: 0.3s ease-in-out;
+        border: 1px solid #e3e2e7;
+    }
+
+    &__btn-wrapper {
+        text-align: right;
+    }
+    &__btn {
+        color: #ffffff;
+        background-color: $primary-color;
+        border-color: $primary-color;
+        transition: all .3s;
+        &:hover {
+            background-color: $title;
+            border-color: $title;
+        }
+    }
+}

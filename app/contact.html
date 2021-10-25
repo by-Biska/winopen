@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/style.min.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -105,7 +105,7 @@
         <div class="container">
           <div class="breadcrumbs__inner">
             <h3 class="breadcrumbs__title">CONTACT US</h3>
-            <div class="breadcrumbs__box">
+            <div class="breadcrumbs__box text">
               <p class="breadcrumbs__here">You Are Here:</p>
               <ul class="breadcrumbs__list">
                 <li class="breadcrumbs__list-item">
@@ -128,7 +128,7 @@
         </div>
       </div>
 
-      <section class="contactinfo-section">
+      <section class="contactinfo-section page-section">
         <div class="container">
           <ul class="contactinfo-section__list">
             <li class="contactinfo-section__item">
@@ -190,9 +190,14 @@
                 <span class="form-validation">The text field is required.</span>
               </div>
             </div>
-            <textarea class="contact-form__textarea" placeholder="Message"></textarea>
+            <div class="contact-form__textarea-wrapper">
+              <textarea class="contact-form__textarea" placeholder="Message"></textarea>
+              <span class="form-validation">The text field is required.</span>
+            </div>
           </form>
-          <button class="contact-form button">Send message</button>
+          <div class="contact-form__btn-wrapper">
+            <button class="contact-form__btn button">Send message</button>
+          </div>
         </div>
       </section>
     </main>

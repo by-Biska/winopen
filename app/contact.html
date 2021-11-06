@@ -89,12 +89,22 @@
             </li>
           </ul>
           <div class="menubottom__links">
-            <a class="menubottom__buttons-basket" href="#">
-              <img class="menubottom__img" src="images/search.svg" alt="search">
-            </a>
-            <a class="menubottom__buttons-search" href="#">
-              <img class="menubottom__img" src="images/basket.svg" alt="basket">
-            </a>
+            <div class="menubottom__buttons-search">
+              <button>
+                <img class="menubottom__img" src="images/search.svg" alt="search">
+              </button>
+              <form class="menubottom__form">
+                <input class="menubottom__form-input" type="text" placeholder="Search">
+                <button class="menubottom__form-btn" type="submit">
+                  <i class="menubottom__form-img fas fa-search"></i>
+                </button>
+              </form>
+            </div>
+            <div class="menubottom__buttons-basket">
+              <a href="#">
+                <img class="menubottom__img" src="images/basket.svg" alt="basket">
+              </a>
+            </div>
           </div>
         </div>
       </div>

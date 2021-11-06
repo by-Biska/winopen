@@ -1,0 +1,123 @@
+.post-section {
+    &__inner {
+        margin: 0 auto;
+        max-width: 66.66667%;
+    }
+    &__item {
+        border-bottom: 1px solid #e3e2e7;
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+    &__info {
+        display: flex;
+        padding-bottom: 60px;
+    }
+    &:hover {
+        .post__img {
+            transform: scale(1);
+        }
+    }
+    .post__img:hover {
+        transform: scale(1.05);
+    }
+    &__text {
+        margin-bottom: 20px;
+    }
+    &__blockquote {
+        display: flex;
+        padding: 30px 40px;
+        color: $primary-color;
+        background-color: #f6f6f6;
+        margin-bottom: 20px;
+        &-img {
+            height: 100%;
+            margin-right: 20px;
+        }
+        &-text {
+            width: 100%;
+            color: inherit;
+            font-size: 22px;
+        }
+        &-author {
+            color: $title;
+            margin-top: 10px;
+        }
+    }
+    &__img {
+        margin-bottom: 20px;
+    }
+    &__tags {
+        display: flex;
+        &-title {
+            margin-right: 8px;
+        }
+        &-list {
+            display: flex;
+        }
+        &-item {
+            margin-right: 10px;
+            &::after {
+                content: ",";
+                position: absolute;
+            }
+            &:last-child::after {
+                content: "";
+            }
+        }
+    }
+    .buttons-post {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0;
+        &__btn-left {
+            i {
+                margin-right: 10px;
+            }
+        }
+        &__btn-right {
+            span {
+                margin-right: 10px;
+            }
+        }
+    }
+    .comment-post {
+        margin-top: 40px;
+        padding-bottom: 20px;
+        &__title {
+            font-size: 18px;
+            line-height: 1.44444;
+            margin-bottom: 15px;
+        }
+        &__form {
+            flex-direction: column;
+            margin-bottom: 0;
+        }
+        &__input-box {
+            max-width: 100%;
+            flex: 100%;
+            margin-right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        &__input-wrapper {
+            flex: 0 0 31%;
+            max-width: 31%;
+        }
+        .comment-post__input-wrapper + .comment-post__input-wrapper {
+            margin-top: 0;
+        }
+        &__textarea-wrapper {
+            max-width: 100%;
+            flex: 100%;
+        }
+        &__btn {
+            display: block;
+            max-width: 200px;
+            margin-top: 20px;
+        }
+    }
+}

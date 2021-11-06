@@ -19,6 +19,7 @@
     "gulp-uglify-es": "^3.0.0",
     "gulp-webp": "^4.0.1",
     "jquery": "^3.6.0",
+    "rateyo": "^3.0.0-alpha.2",
     "sass": "^1.37.0",
     "slick-carousel": "^1.8.1",
     "webp-converter": "^2.2.3"

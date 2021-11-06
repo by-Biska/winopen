@@ -110,4 +110,23 @@ $(function () {
       $(this).addClass("active");
     });
   }
+
+  // Rateyo
+  $(".rate-yo").rateYo({
+  });
+
+  $(".menubottom__buttons-search").click(function () {
+    $(".menubottom__form").toggleClass("active");
+  });
+  $(".menu-mobile__img-search").click(function () {
+    $(".menu-mobile__form").toggleClass("active");
+  });
+  $(".menu-mobile__button-dots").click(function () {
+    $(".menu-mobile__content").toggleClass("active");
+  });
+
+  $('#burger').on('click', function() {
+    $('span').toggleClass('active');
+    $('.menu-mobile__nav').toggleClass('active');
+  });
 });

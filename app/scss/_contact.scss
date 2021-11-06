@@ -11,7 +11,8 @@
         color: $text;
     }
 }
-.contact-form {
+.contact-form,
+.comment-post {
     padding-bottom: 90px;
     &__form {
         display: flex;

@@ -231,7 +231,8 @@ body ::selection {
   padding: 0 10px;
 }
 
-.display-none {
+.display-none,
+.d-md-none {
   display: none;
 }
 
@@ -925,6 +926,7 @@ h6 {
 .what-section__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 55px;
 }
 .what-section__item {
@@ -968,7 +970,7 @@ h6 {
 .services-section__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
+  grid-gap: 35px;
   margin-top: 55px;
 }
 .services-section__item {
@@ -1049,11 +1051,9 @@ h6 {
   grid-gap: 30px;
   margin-top: 55px;
 }
-.projects-section__item {
-  max-width: 430px;
-}
 .projects-section__img-wrapper {
   position: relative;
+  overflow-x: hidden;
 }
 .projects-section__img-wrapper:hover .projects-section__img-dark {
   transform: translateX(0);
@@ -1128,6 +1128,31 @@ h6 {
 .workwith-section .workwith-slider__item-img {
   display: inline-block !important;
   vertical-align: middle;
+}
+.workwith-section .slick-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+.workwith-section .slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 0;
+}
+.workwith-section .slick-dots li.slick-active button {
+  background-color: #1c62cd;
+}
+.workwith-section .slick-dots li button {
+  border: none;
+  background-color: #1e1d24;
+  border-radius: 50%;
+  padding: 0;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.workwith-section .slick-dots li button:hover {
+  background-color: #1c62cd;
 }
 
 .news-section__box {
@@ -2125,6 +2150,72 @@ h6 {
   .menutop__list {
     margin-left: 0;
   }
+
+  .what-section__list {
+    justify-content: start;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .what-section__item {
+    max-width: 360px;
+    margin-top: 50px;
+  }
+
+  .services-section__item {
+    display: block;
+    text-align: center;
+  }
+
+  .services-section__img-wrapper {
+    margin: 0 auto 20px auto;
+  }
+
+  .projects-section__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1100px) {
+  .hi-section__info-callus {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .hi-section__request {
+    max-width: 300px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 1024px) {
+  .why-section__list {
+    flex-wrap: wrap;
+  }
+
+  .why-section__item {
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .why-section {
+    padding-bottom: 45px;
+  }
+
+  .services-section__list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+  }
+
+  .projects-section__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .page-section {
+    padding: 50px 0;
+  }
 }
 @media (max-width: 900px) {
   .header__top {
@@ -2157,5 +2248,98 @@ h6 {
   }
   .menu-mobile__content.active {
     opacity: 1;
+  }
+
+  .hi-section__info-callus {
+    font-size: 40px;
+    line-height: 53px;
+  }
+
+  .hi-section__info-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .why-section__list {
+    flex-direction: column;
+    max-width: 370px;
+    margin: 55px auto 0 auto;
+  }
+
+  .why-section__item {
+    max-width: 100%;
+  }
+
+  .what-section__list {
+    justify-content: center;
+    max-width: none;
+  }
+
+  .quality-section {
+    height: auto;
+  }
+
+  .quality-section__inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .quality-section__info {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .quality-section__title {
+    font-size: 26px;
+  }
+}
+@media (max-width: 768px) {
+  .hi-section {
+    padding-top: 100px;
+  }
+
+  .hi-section__inner {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hi-section__info {
+    margin-bottom: 30px;
+  }
+
+  .hi-section__info-callus {
+    display: flex;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .hi-section__info-callus-phone {
+    margin-left: 10px;
+  }
+
+  .d-md-none {
+    display: block;
+  }
+
+  .projects-section__list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .hi-section__info-callus {
+    display: block;
+  }
+
+  .services-section__list {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+
+  .quality-section__title {
+    font-size: 24px;
   }
 }

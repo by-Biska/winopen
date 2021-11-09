@@ -8,6 +8,7 @@ $(function () {
       $(".header__bottom").removeClass("header__bottom--active");
     }
   });
+
   $(".workwith-slider").slick({
     arrows: false,
     slidesToShow: 6,
@@ -15,9 +16,25 @@ $(function () {
       {
         breakpoint: 1100,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 740,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 560,
+        settings: {
+          slidesToShow: 1,
           slidesToScroll: 1,
-          // dots: true
+          dots: true,
         },
       },
     ],
@@ -45,7 +62,6 @@ $(function () {
       $this.next().slideToggle(350);
     }
   });
-
 
   // CALENDAR
   var themonth = 1;
@@ -112,8 +128,7 @@ $(function () {
   }
 
   // Rateyo
-  $(".rate-yo").rateYo({
-  });
+  $(".rate-yo").rateYo({});
 
   $(".menubottom__buttons-search").click(function () {
     $(".menubottom__form").toggleClass("active");
@@ -125,8 +140,8 @@ $(function () {
     $(".menu-mobile__content").toggleClass("active");
   });
 
-  $('#burger').on('click', function() {
-    $('span').toggleClass('active');
-    $('.menu-mobile__nav').toggleClass('active');
+  $("#burger").on("click", function () {
+    $("span").toggleClass("active");
+    $(".menu-mobile__nav").toggleClass("active");
   });
 });

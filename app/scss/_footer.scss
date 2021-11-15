@@ -6,6 +6,7 @@
     &__top-inner {
         display: flex;
         padding: 70px 0;
+        flex-wrap: wrap;
     }
     &__top-item {
         width: 33.33%;
@@ -62,6 +63,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 15px 0;
+        flex-wrap: wrap;
     }
     &__social-list {
         display: flex;

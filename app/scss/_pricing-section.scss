@@ -10,10 +10,10 @@
 }
 
 .pricing-tables {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 55px;
     &__item {
-        max-width: 33.33333%;
         margin: 0 15px;
     }
     &__top {

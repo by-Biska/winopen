@@ -367,11 +367,16 @@
     &__item-imgbox {
         display: inline-block;
         margin-right: 3px;
+        width: 26px;
     }
     &__item-img {
         font-size: 20px;
         color: #1c62cd;
         margin-right: 5px;
+    }
+    &__item-phone {
+        font-size: 15px;
+        font-weight: 500;
     }
     &__top-btn {
         margin-top: 20px;

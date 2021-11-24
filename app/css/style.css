@@ -803,11 +803,16 @@ h6 {
 .menu-mobile__item-imgbox {
   display: inline-block;
   margin-right: 3px;
+  width: 26px;
 }
 .menu-mobile__item-img {
   font-size: 20px;
   color: #1c62cd;
   margin-right: 5px;
+}
+.menu-mobile__item-phone {
+  font-size: 15px;
+  font-weight: 500;
 }
 .menu-mobile__top-btn {
   margin-top: 20px;
@@ -1057,6 +1062,9 @@ h6 {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
   margin-top: 55px;
+}
+.projects-section__item {
+  max-width: 430px;
 }
 .projects-section__img-wrapper {
   position: relative;

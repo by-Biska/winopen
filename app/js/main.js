@@ -136,7 +136,7 @@ $(function () {
   $(".menu-mobile__img-search").click(function () {
     $(".menu-mobile__form").toggleClass("active");
   });
-  $(".menu-mobile__button-dots").click(function () {
+  $(".menu-mobile__img-dots").click(function () {
     $(".menu-mobile__content").toggleClass("active");
   });
 

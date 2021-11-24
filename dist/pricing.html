@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <title>Winopen</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <div class="logo">
+              <a class="logo__link" href="index.html">
+                <img class="logo__img" src="images/logo.svg" alt="logo">
+              </a>
+              <p class="logo__text">Window Installation Services</p>
+            </div>
+            <nav class="menutop">
+              <ul class="menutop__list">
+                <li class="menutop__item menutop__item-workhours">
+                  <div class="menutop__item-imgbox">
+                    <i class="menutop__item-img far fa-clock"></i>
+                  </div>
+                  <div class="menutop__info">
+                    <p>
+                      Mon-Fri: 10 AM - 7 PM;
+                      <br>
+                      Sat-Sun: 10 AM - 3 PM
+                    </p>
+                  </div>
+                </li>
+                <li class="menutop__item menutop__item-address">
+                  <div class="menutop__item-imgbox">
+                    <i class="menutop__item-img fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="menutop__info">
+                    <a class="menutop__address-link" href="#">
+                      4578 Marmora Road, <br>
+                      Glasgow
+                    </a>
+                  </div>
+                </li>
+                <li class="menutop__item menutop__item-call">
+                  <div class="menutop__item-imgbox">
+                    <i class="menutop__item-img fas fa-phone-alt"></i>
+                  </div>
+                  <div class="menutop__info">
+                    <p class="menutop__item-text">Call us:</p>
+                    <a class="menutop__item-phone" href="tel:7194452808">(719) 445-2808</a>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+            <button class="header__top-btn">
+              <i class="header__top-btnimg fas fa-bookmark"></i>
+              make an appointment
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="menu-mobile">
+        <div id="burger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="menu-mobile__links">
+          <div class="menu-mobile__link menu-mobile__buttons-basket">
+            <a href="#" class="menu-mobile__img-box">
+              <img class="menu-mobile__img" src="images/basket-black.png" alt="basket">
+            </a>
+          </div>
+          <div class="menu-mobile__link menu-mobile__buttons-search">
+            <button class="menu-mobile__img-box">
+              <i class="menu-mobile__img menu-mobile__img-search fas fa-search"></i>
+            </button>
+            <form class="menu-mobile__form">
+              <input class="menu-mobile__form-input" type="text" placeholder="Search">
+              <button class="menu-mobile__form-btn" type="submit">
+                <i class="menu-mobile__form-img fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+          <div class="menu-mobile__link menu-mobile__button-dots">
+            <button class="menu-mobile__img-box">
+              <i class="menu-mobile__img menu-mobile__img-dots fas fa-ellipsis-v"></i>
+            </button>
+            <div class="menu-mobile__content">
+              <ul class="menu-mobile__list">
+                <li class="menu-mobile__item menu-mobile__item-workhours">
+                  <div class="menu-mobile__item-imgbox">
+                    <i class="menu-mobile__item-img far fa-clock"></i>
+                  </div>
+                  <div class="menu-mobile__info">
+                    <p>
+                      Mon-Fri: 10 AM - 7 PM;
+                      <br>
+                      Sat-Sun: 10 AM - 3 PM
+                    </p>
+                  </div>
+                </li>
+                <li class="menu-mobile__item menu-mobile__item-address">
+                  <div class="menu-mobile__item-imgbox">
+                    <i class="menu-mobile__item-img fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="menu-mobile__info">
+                    <a class="menu-mobile__address-link" href="#">
+                      4578 Marmora Road, <br>
+                      Glasgow
+                    </a>
+                  </div>
+                </li>
+                <li class="menu-mobile__item menu-mobile__item-call">
+                  <div class="menu-mobile__item-imgbox">
+                    <i class="menu-mobile__item-img fas fa-phone-alt"></i>
+                  </div>
+                  <div class="menu-mobile__info">
+                    <p class="menu-mobile__item-text">Call us:</p>
+                    <a class="menu-mobile__item-phone" href="tel:7194452808">(719) 445-2808</a>
+                  </div>
+                </li>
+              </ul>
+              <button class="menu-mobile__top-btn button">
+                <i class="menu-mobile__top-btnimg fas fa-bookmark"></i>
+                make an appointment
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-mobile__nav">
+        <div class="menu-mobile__logo">
+          <img src="images/logo.svg" alt="" class="menu-mobile__logo-img">
+        </div>
+        <ul class="menu-mobile__list">
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="index.html">Home</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="about.html">About</a>
+          </li>
+          <li class="menu-mobile__item menu-mobile__item--active">
+            <a class="menu-mobile__item-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="blog.html">blog</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="contact.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__bottom">
+        <div class="header__bottom-inner">
+          <div class="header__bottom-logo">
+            <img src="images/logo.svg" alt="" class="header__bottom__logo-img">
+          </div>
+          <ul class="menubottom__list">
+            <li class="menubottom__item menubottom__item--active">
+              <a class="menubottom__item-link" href="index.html">Home</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="about.html">About</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="blog.html">blog</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+          <div class="menubottom__links">
+            <div class="menubottom__buttons-search">
+              <button>
+                <img class="menubottom__img" src="images/search.svg" alt="search">
+              </button>
+              <form class="menubottom__form">
+                <input class="menubottom__form-input" type="text" placeholder="Search">
+                <button class="menubottom__form-btn" type="submit">
+                  <i class="menubottom__form-img fas fa-search"></i>
+                </button>
+              </form>
+            </div>
+            <div class="menubottom__buttons-basket">
+              <a href="#">
+                <img class="menubottom__img" src="images/basket.svg" alt="basket">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="weoffer-section">
+        <div class="container">
+          <div class="weoffer-section__inner">
+            <h1 class="weoffer-section__title">We Offer Fair and Affordable Prices</h1>
+            <p class="weoffer-section__text text">So everybody could have an opportunity to receive professional
+              maintenance help any time! </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing-section page-section">
+        <div class="container">
+          <h2 class="pricing-section__title section-title">PRICING TABLES</h2>
+          <div class="pricing-section__text text">
+            <p>Check our pricing tables to know what options is right for you.</p>
+            <p>You can contact our Customer Service representative to calculate approximate price for your project
+              depending on your area and amount of work that needs to be done.
+            </p>
+          </div>
+          <div class="pricing-tables">
+            <div class="pricing-tables__item">
+              <div class="pricing-tables__top">
+                <h3 class="pricing-tables__title">Basic</h3>
+                <div class="price-box">
+                  <p class="price">$ <span class="price__cost">245</span></p>
+                  <p class="price__time">Monthly</p>
+                </div>
+                <p class="pricing-tables__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut:</p>
+              </div>
+              <div class="pricing-tables__bottom">
+                <ul class="pricing-tables__menu-list">
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">Single hung windows;
+                    </span>
+                  </li>
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">Awning windows;</span>
+                  </li>
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">Casement windows;</span>
+                  </li>
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">Hinged single doors;</span>
+                  </li>
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">Pivot doors.</span>
+                  </li>
+                </ul>
+                <a class="pricing-tables__btn button" href="#">order now</a>
+              </div>
+            </div>
+            <div class="pricing-tables__item">
+              <div class="pricing-tables__top">
+                <h3 class="pricing-tables__title">Standard</h3>
+                <div class="price-box">
+                  <p class="price">$ <span class="price__cost">245</span></p>
+                  <p class="price__time">Monthly</p>
+                </div>
+                <p class="pricing-tables__text text">Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. Dui sapien eget mi proin. Vitae et leo:</p>
+              </div>
+              <div class="pricing-tables__bottom">
+                <ul class="pricing-tables__menu-list">
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">Double hung windows;
+                    </span>
+                  </li>
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">Bay windows;</span>
+                  </li>
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">Egress windows;</span>
+                  </li>
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">French doors;</span>
+                  </li>
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">Sliding doors.</span>
+                  </li>
+                </ul>
+                <a class="pricing-tables__btn button" href="#">order now</a>
+              </div>
+            </div>
+            <div class="pricing-tables__item">
+              <div class="pricing-tables__top">
+                <h3 class="pricing-tables__title">Premium</h3>
+                <div class="price-box">
+                  <p class="price">$ <span class="price__cost">245</span></p>
+                  <p class="price__time">Monthly</p>
+                </div>
+                <p class="pricing-tables__text text">Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Id interdum velit laoreet id donec:</p>
+              </div>
+              <div class="pricing-tables__bottom">
+                <ul class="pricing-tables__menu-list">
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">Arched windows;
+                    </span>
+                  </li>
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">Bow windows;</span>
+                  </li>
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">Garden windows;                    </span>
+                  </li>
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">Bi-fold doors;</span>
+                  </li>
+                  <li class="pricing-tables__menu-item text">
+                    <i class="pricing-tables__menu-img fas fa-check"></i>
+                    <span class="pricing-tables__menu-link">Stacking doors.</span>
+                  </li>
+                </ul>
+                <a class="pricing-tables__btn button" href="#">order now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="container">
+          <div class="footer__top-inner">
+            <div class="footer__getquote footer__top-item">
+              <h4 class="footer__getquote-title footer-title">GET YOUR QUOTE</h4>
+              <p class="footer__getquote-text text">Get a quote today to receive high-quality windows that fit your home
+                or
+                office the best way!</p>
+              <a class="footer__getquote-btn button" href="#">Request a quote</a>
+            </div>
+            <nav class="footer__menu footer__top-item">
+              <h4 class="footer__menu-title footer-title">SERVICES</h2>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Window & Door Measuring
+                  </a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Window Installation</a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Window Replacement</a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Door Installation</a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Door & Window Maintenance</a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Repair Services</a>
+                </div>
+            </nav>
+            <div class="footer__contacts footer__top-item">
+              <h4 class="footer__contacts-title footer-title">CONTACTS</h4>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-phone-alt"></i>
+                <span class="footer__contacts-text">Call us:</span>
+                <a class="footer__contacts-phone" href="tel:7194452808">(719) 445-2808</a>
+              </div>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-clock"></i>
+                <span class="footer__contacts-text">Mon-Fri: 10 AM - 7 PM; Sat-Sun: 10 AM - 3 PM</span>
+              </div>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-map-marker-alt"></i>
+                <a class="footer__contacts-text" href="#">4578 Marmora Road, Glasgow</a>
+              </div>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-envelope"></i>
+                <a class="footer__contacts-phone" href="mailto:info@demolink.org">info@demolink.org</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="footer__bottom-inner">
+            <p class="footer__bottom-copy">© 2021 WinSpace. Privacy Policy</p>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <i class="fab fa-facebook-f"></i>
+              </li>
+              <li class="footer__social-item">
+                <i class="fab fa-twitter"></i>
+              </li>
+              <li class="footer__social-item">
+                <i class="fab fa-youtube"></i>
+              </li>
+              <li class="footer__social-item">
+                <i class="fab fa-instagram"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/da5a8f8eab.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

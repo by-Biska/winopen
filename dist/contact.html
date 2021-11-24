@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/style.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <title>Winopen</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <div class="logo">
+              <a class="logo__link" href="index.html">
+                <img class="logo__img" src="images/logo.svg" alt="logo">
+              </a>
+              <p class="logo__text">Window Installation Services</p>
+            </div>
+            <nav class="menutop">
+              <ul class="menutop__list">
+                <li class="menutop__item menutop__item-workhours">
+                  <div class="menutop__item-imgbox">
+                    <i class="menutop__item-img far fa-clock"></i>
+                  </div>
+                  <div class="menutop__info">
+                    <p>
+                      Mon-Fri: 10 AM - 7 PM;
+                      <br>
+                      Sat-Sun: 10 AM - 3 PM
+                    </p>
+                  </div>
+                </li>
+                <li class="menutop__item menutop__item-address">
+                  <div class="menutop__item-imgbox">
+                    <i class="menutop__item-img fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="menutop__info">
+                    <a class="menutop__address-link" href="#">
+                      4578 Marmora Road, <br>
+                      Glasgow
+                    </a>
+                  </div>
+                </li>
+                <li class="menutop__item menutop__item-call">
+                  <div class="menutop__item-imgbox">
+                    <i class="menutop__item-img fas fa-phone-alt"></i>
+                  </div>
+                  <div class="menutop__info">
+                    <p class="menutop__item-text">Call us:</p>
+                    <a class="menutop__item-phone" href="tel:7194452808">(719) 445-2808</a>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+            <button class="header__top-btn">
+              <i class="header__top-btnimg fas fa-bookmark"></i>
+              make an appointment
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="menu-mobile">
+        <div id="burger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="menu-mobile__links">
+          <div class="menu-mobile__link menu-mobile__buttons-basket">
+            <a href="#" class="menu-mobile__img-box">
+              <img class="menu-mobile__img" src="images/basket-black.png" alt="basket">
+            </a>
+          </div>
+          <div class="menu-mobile__link menu-mobile__buttons-search">
+            <button class="menu-mobile__img-box">
+              <i class="menu-mobile__img menu-mobile__img-search fas fa-search"></i>
+            </button>
+            <form class="menu-mobile__form">
+              <input class="menu-mobile__form-input" type="text" placeholder="Search">
+              <button class="menu-mobile__form-btn" type="submit">
+                <i class="menu-mobile__form-img fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+          <div class="menu-mobile__link menu-mobile__button-dots">
+            <button class="menu-mobile__img-box">
+              <i class="menu-mobile__img menu-mobile__img-dots fas fa-ellipsis-v"></i>
+            </button>
+            <div class="menu-mobile__content">
+              <ul class="menu-mobile__list">
+                <li class="menu-mobile__item menu-mobile__item-workhours">
+                  <div class="menu-mobile__item-imgbox">
+                    <i class="menu-mobile__item-img far fa-clock"></i>
+                  </div>
+                  <div class="menu-mobile__info">
+                    <p>
+                      Mon-Fri: 10 AM - 7 PM;
+                      <br>
+                      Sat-Sun: 10 AM - 3 PM
+                    </p>
+                  </div>
+                </li>
+                <li class="menu-mobile__item menu-mobile__item-address">
+                  <div class="menu-mobile__item-imgbox">
+                    <i class="menu-mobile__item-img fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="menu-mobile__info">
+                    <a class="menu-mobile__address-link" href="#">
+                      4578 Marmora Road, <br>
+                      Glasgow
+                    </a>
+                  </div>
+                </li>
+                <li class="menu-mobile__item menu-mobile__item-call">
+                  <div class="menu-mobile__item-imgbox">
+                    <i class="menu-mobile__item-img fas fa-phone-alt"></i>
+                  </div>
+                  <div class="menu-mobile__info">
+                    <p class="menu-mobile__item-text">Call us:</p>
+                    <a class="menu-mobile__item-phone" href="tel:7194452808">(719) 445-2808</a>
+                  </div>
+                </li>
+              </ul>
+              <button class="menu-mobile__top-btn button">
+                <i class="menu-mobile__top-btnimg fas fa-bookmark"></i>
+                make an appointment
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-mobile__nav">
+        <div class="menu-mobile__logo">
+          <img src="images/logo.svg" alt="" class="menu-mobile__logo-img">
+        </div>
+        <ul class="menu-mobile__list">
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="index.html">Home</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="about.html">About</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="blog.html">blog</a>
+          </li>
+          <li class="menu-mobile__item menu-mobile__item--active">
+            <a class="menu-mobile__item-link" href="contact.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__bottom">
+        <div class="header__bottom-inner">
+          <div class="header__bottom-logo">
+            <img src="images/logo.svg" alt="" class="header__bottom__logo-img">
+          </div>
+          <ul class="menubottom__list">
+            <li class="menubottom__item menubottom__item--active">
+              <a class="menubottom__item-link" href="index.html">Home</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="about.html">About</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="blog.html">blog</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+          <div class="menubottom__links">
+            <div class="menubottom__buttons-search">
+              <button>
+                <img class="menubottom__img" src="images/search.svg" alt="search">
+              </button>
+              <form class="menubottom__form">
+                <input class="menubottom__form-input" type="text" placeholder="Search">
+                <button class="menubottom__form-btn" type="submit">
+                  <i class="menubottom__form-img fas fa-search"></i>
+                </button>
+              </form>
+            </div>
+            <div class="menubottom__buttons-basket">
+              <a href="#">
+                <img class="menubottom__img" src="images/basket.svg" alt="basket">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="breadcrumbs">
+        <div class="container">
+          <div class="breadcrumbs__inner">
+            <h3 class="breadcrumbs__title">CONTACT US</h3>
+            <div class="breadcrumbs__box text">
+              <p class="breadcrumbs__here">You Are Here:</p>
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__list-item">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="breadcrumbs__list-item">
+                  <span>CONTACT US</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="map">
+        <div class="container-fluid">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7032.4769442185225!2d-0.0570963028648368!3d51.45161865742321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603b62d2cfc17%3A0x66ae2dbf22e8b3f2!2s4578%20Marmora%20Rd%2C%20London%20SE22%200SD%2C%20UK!5e0!3m2!1sen!2sru!4v1634492122626!5m2!1sen!2sru"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <section class="contactinfo-section page-section">
+        <div class="container">
+          <ul class="contactinfo-section__list">
+            <li class="contactinfo-section__item">
+              <div class="contactinfo-section__img-wrapper">
+                <i class="contactinfo-section__img fas fa-phone-alt"></i>
+              </div>
+              <div class="contactinfo-section__info">
+                <h6 class="contactinfo-section__title">Phones</h6>
+                <p class="contactinfo-section__text text">
+                  <a href="tel:#">(719) 445-2808; </a>
+                  <a href="tel:#"> (719) 445-2809</a>
+                </p>
+              </div>
+            </li>
+            <li class="contactinfo-section__item">
+              <div class="contactinfo-section__img-wrapper">
+                <i class="contactinfo-section__img fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contactinfo-section__info">
+                <h6 class="contactinfo-section__title">Address</h6>
+                <p class="contactinfo-section__text text">
+                  <a href="#">4578 Marmora Road, Glasgow</a>
+                </p>
+              </div>
+            </li>
+            <li class="contactinfo-section__item">
+              <div class="contactinfo-section__img-wrapper">
+                <i class="contactinfo-section__img fas fa-envelope"></i>
+              </div>
+              <div class="contactinfo-section__info">
+                <h6 class="contactinfo-section__title">E-mail</h6>
+                <p class="contactinfo-section__text text">
+                  <a href="mailto:#">info@demolink.org</a>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact-form">
+        <div class="container">
+          <form class="contact-form__form">
+            <div class="contact-form__input-box">
+              <div class="contact-form__input-wrapper has-error">
+                <input class="contact-form__input" type="text" name="name" placeholder="Your Name">
+                <span class="form-validation">The text field is required.</span>
+              </div>
+              <div class="contact-form__input-wrapper">
+                <input class="contact-form__input" type="email" name="email" placeholder="Your Email">
+                <span class="form-validation">The text field is required.</span>
+              </div>
+              <div class="contact-form__input-wrapper">
+                <input class="contact-form__input" type="text" placeholder="Your Website">
+                <span class="form-validation">The text field is required.</span>
+              </div>
+              <div class="contact-form__input-wrapper">
+                <input class="contact-form__input" type="text" placeholder="Your Company">
+                <span class="form-validation">The text field is required.</span>
+              </div>
+            </div>
+            <div class="contact-form__textarea-wrapper">
+              <textarea class="contact-form__textarea" placeholder="Message"></textarea>
+              <span class="form-validation">The text field is required.</span>
+            </div>
+          </form>
+          <div class="contact-form__btn-wrapper">
+            <button class="contact-form__btn button">Send message</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="container">
+          <div class="footer__top-inner">
+            <div class="footer__getquote footer__top-item">
+              <h4 class="footer__getquote-title footer-title">GET YOUR QUOTE</h4>
+              <p class="footer__getquote-text text">Get a quote today to receive high-quality windows that fit your home
+                or
+                office the best way!</p>
+              <a class="footer__getquote-btn button" href="#">Request a quote</a>
+            </div>
+            <nav class="footer__menu footer__top-item">
+              <h4 class="footer__menu-title footer-title">SERVICES</h2>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Window & Door Measuring
+                  </a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Window Installation</a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Window Replacement</a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Door Installation</a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Door & Window Maintenance</a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Repair Services</a>
+                </div>
+            </nav>
+            <div class="footer__contacts footer__top-item">
+              <h4 class="footer__contacts-title footer-title">CONTACTS</h4>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-phone-alt"></i>
+                <span class="footer__contacts-text">Call us:</span>
+                <a class="footer__contacts-phone" href="tel:7194452808">(719) 445-2808</a>
+              </div>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-clock"></i>
+                <span class="footer__contacts-text">Mon-Fri: 10 AM - 7 PM; Sat-Sun: 10 AM - 3 PM</span>
+              </div>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-map-marker-alt"></i>
+                <a class="footer__contacts-text" href="#">4578 Marmora Road, Glasgow</a>
+              </div>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-envelope"></i>
+                <a class="footer__contacts-phone" href="mailto:info@demolink.org">info@demolink.org</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="footer__bottom-inner">
+            <p class="footer__bottom-copy">© 2021 WinSpace. Privacy Policy</p>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <i class="fab fa-facebook-f"></i>
+              </li>
+              <li class="footer__social-item">
+                <i class="fab fa-twitter"></i>
+              </li>
+              <li class="footer__social-item">
+                <i class="fab fa-youtube"></i>
+              </li>
+              <li class="footer__social-item">
+                <i class="fab fa-instagram"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/da5a8f8eab.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

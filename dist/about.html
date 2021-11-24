@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <title>Winopen</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <div class="logo">
+              <a class="logo__link" href="index.html">
+                <img class="logo__img" src="images/logo.svg" alt="logo">
+              </a>
+              <p class="logo__text">Window Installation Services</p>
+            </div>
+            <nav class="menutop">
+              <ul class="menutop__list">
+                <li class="menutop__item menutop__item-workhours">
+                  <div class="menutop__item-imgbox">
+                    <i class="menutop__item-img far fa-clock"></i>
+                  </div>
+                  <div class="menutop__info">
+                    <p>
+                      Mon-Fri: 10 AM - 7 PM;
+                      <br>
+                      Sat-Sun: 10 AM - 3 PM
+                    </p>
+                  </div>
+                </li>
+                <li class="menutop__item menutop__item-address">
+                  <div class="menutop__item-imgbox">
+                    <i class="menutop__item-img fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="menutop__info">
+                    <a class="menutop__address-link" href="#">
+                      4578 Marmora Road, <br>
+                      Glasgow
+                    </a>
+                  </div>
+                </li>
+                <li class="menutop__item menutop__item-call">
+                  <div class="menutop__item-imgbox">
+                    <i class="menutop__item-img fas fa-phone-alt"></i>
+                  </div>
+                  <div class="menutop__info">
+                    <p class="menutop__item-text">Call us:</p>
+                    <a class="menutop__item-phone" href="tel:7194452808">(719) 445-2808</a>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+            <button class="header__top-btn">
+              <i class="header__top-btnimg fas fa-bookmark"></i>
+              make an appointment
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="menu-mobile">
+        <div id="burger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="menu-mobile__links">
+          <div class="menu-mobile__link menu-mobile__buttons-basket">
+            <a href="#" class="menu-mobile__img-box">
+              <img class="menu-mobile__img" src="images/basket-black.png" alt="basket">
+            </a>
+          </div>
+          <div class="menu-mobile__link menu-mobile__buttons-search">
+            <button class="menu-mobile__img-box">
+              <i class="menu-mobile__img menu-mobile__img-search fas fa-search"></i>
+            </button>
+            <form class="menu-mobile__form">
+              <input class="menu-mobile__form-input" type="text" placeholder="Search">
+              <button class="menu-mobile__form-btn" type="submit">
+                <i class="menu-mobile__form-img fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+          <div class="menu-mobile__link menu-mobile__button-dots">
+            <button class="menu-mobile__img-box">
+              <i class="menu-mobile__img menu-mobile__img-dots fas fa-ellipsis-v"></i>
+            </button>
+            <div class="menu-mobile__content">
+              <ul class="menu-mobile__list">
+                <li class="menu-mobile__item menu-mobile__item-workhours">
+                  <div class="menu-mobile__item-imgbox">
+                    <i class="menu-mobile__item-img far fa-clock"></i>
+                  </div>
+                  <div class="menu-mobile__info">
+                    <p>
+                      Mon-Fri: 10 AM - 7 PM;
+                      <br>
+                      Sat-Sun: 10 AM - 3 PM
+                    </p>
+                  </div>
+                </li>
+                <li class="menu-mobile__item menu-mobile__item-address">
+                  <div class="menu-mobile__item-imgbox">
+                    <i class="menu-mobile__item-img fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="menu-mobile__info">
+                    <a class="menu-mobile__address-link" href="#">
+                      4578 Marmora Road, <br>
+                      Glasgow
+                    </a>
+                  </div>
+                </li>
+                <li class="menu-mobile__item menu-mobile__item-call">
+                  <div class="menu-mobile__item-imgbox">
+                    <i class="menu-mobile__item-img fas fa-phone-alt"></i>
+                  </div>
+                  <div class="menu-mobile__info">
+                    <p class="menu-mobile__item-text">Call us:</p>
+                    <a class="menu-mobile__item-phone" href="tel:7194452808">(719) 445-2808</a>
+                  </div>
+                </li>
+              </ul>
+              <button class="menu-mobile__top-btn button">
+                <i class="menu-mobile__top-btnimg fas fa-bookmark"></i>
+                make an appointment
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-mobile__nav">
+        <div class="menu-mobile__logo">
+          <img src="images/logo.svg" alt="" class="menu-mobile__logo-img">
+        </div>
+        <ul class="menu-mobile__list">
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="index.html">Home</a>
+          </li>
+          <li class="menu-mobile__item menu-mobile__item--active">
+            <a class="menu-mobile__item-link" href="about.html">About</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="blog.html">blog</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="contact.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__bottom">
+        <div class="header__bottom-inner">
+          <div class="header__bottom-logo">
+            <img src="images/logo.svg" alt="" class="header__bottom__logo-img">
+          </div>
+          <ul class="menubottom__list">
+            <li class="menubottom__item menubottom__item--active">
+              <a class="menubottom__item-link" href="index.html">Home</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="about.html">About</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="blog.html">blog</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+          <div class="menubottom__links">
+            <div class="menubottom__buttons-search">
+              <button>
+                <img class="menubottom__img" src="images/search.svg" alt="search">
+              </button>
+              <form class="menubottom__form">
+                <input class="menubottom__form-input" type="text" placeholder="Search">
+                <button class="menubottom__form-btn" type="submit">
+                  <i class="menubottom__form-img fas fa-search"></i>
+                </button>
+              </form>
+            </div>
+            <div class="menubottom__buttons-basket">
+              <a href="#">
+                <img class="menubottom__img" src="images/basket.svg" alt="basket">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="needsome-section page-section-lg">
+        <div class="container">
+          <div class="needsome-section__inner">
+            <h1 class="needsome-section__title">Need some professional window repair help?</h1>
+            <p class="needsome-section__text text">Contact our Customer Service representative to make an appointment
+              and to answer all your questions!</p>
+            <a class="needsome-section__btn button" href="#">make an appointment</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="fewwords-section page-section">
+        <div class="container">
+          <div class="fewwords-section__inner">
+            <div class="fewwords-section__info">
+              <h2 class="fewwords-section__title">A FEW WORDS ABOUT US</h2>
+              <p class="fewwords-section__text text">We are a team of professional and skilled experts in all domestic
+                spheres. We offer a wide range of services and at the same time we are always glad to help you with any
+                inquiry related to doors or windows:</p>
+              <ul class="fewwords-section__menu-list">
+                <li class="fewwords-section__menu-item text">
+                  <i class="fewwords-section__menu-img fas fa-check"></i>
+                  <span class="fewwords-section__menu-link">Window & Door Measuring
+                  </span>
+                </li>
+                <li class="fewwords-section__menu-item text">
+                  <i class="fewwords-section__menu-img fas fa-check"></i>
+                  <span class="fewwords-section__menu-link">Window Installation</span>
+                </li>
+                <li class="fewwords-section__menu-item text">
+                  <i class="fewwords-section__menu-img fas fa-check"></i>
+                  <span class="fewwords-section__menu-link">Window Replacement</span>
+                </li>
+                <li class="fewwords-section__menu-item text">
+                  <i class="fewwords-section__menu-img fas fa-check"></i>
+                  <span class="fewwords-section__menu-link">Door Installation</span>
+                </li>
+                <li class="fewwords-section__menu-item text">
+                  <i class="fewwords-section__menu-img fas fa-check"></i>
+                  <span class="fewwords-section__menu-link">Door & Window Maintenance</span>
+                </li>
+                <li class="fewwords-section__menu-item text">
+                  <i class="fewwords-section__menu-img fas fa-check"></i>
+                  <span class="fewwords-section__menu-link">Repair Services</span>
+                </li>
+              </ul>
+            </div>
+            <div class="fewwords-section__img-wrapper">
+              <img class="fewwords-section__img" src="images/fewwords.webp">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="aboutwhy-section page-section">
+        <div class="container">
+          <div class="aboutwhy-section__inner">
+            <h2 class="aboutwhy-section__title section-title">WHY CHOOSE US</h2>
+            <ul class="aboutwhy-section__list">
+              <li class="aboutwhy-section__item">
+                <div class="aboutwhy-section__img-wrapper">
+                  <i class="aboutwhy-section__img far fa-clock"></i>
+                </div>
+                <h4 class="aboutwhy-section__item-title">
+                  <a href="#">Always Available</a>
+                </h4>
+                <p class="aboutwhy-section__item-text text">We accept requests and phone calls 24/7 so you could resolve
+                  any problem whenever you need. Our team will be at your place at short notice.</p>
+              </li>
+              <li class="aboutwhy-section__item">
+                <div class="aboutwhy-section__img-wrapper">
+                  <i class="aboutwhy-section__img fas fa-medal"></i>
+                </div>
+                <h4 class="aboutwhy-section__item-title">
+                  <a href="#">Qualified Agents</a>
+                </h4>
+                <p class="aboutwhy-section__item-text text">All our team members are high-qualified, educated and
+                  skilled agents. All of them are being trained according to the latest technologies.</p>
+              </li>
+              <li class="aboutwhy-section__item">
+                <div class="aboutwhy-section__img-wrapper">
+                  <i class="aboutwhy-section__img fas fa-piggy-bank fa-flip-horizontal"></i>
+                </div>
+                <h4 class="aboutwhy-section__item-title">
+                  <a href="#">Fair Prices</a>
+                </h4>
+                <p class="aboutwhy-section__item-text text">Our prices are both fair and affordable for all people. We
+                  offer flexible discount system so you could use any service you need.</p>
+              </li>
+              <li class="aboutwhy-section__item">
+                <div class="aboutwhy-section__img-wrapper">
+                  <i class="aboutwhy-section__img far fa-star"></i>
+                </div>
+                <h4 class="aboutwhy-section__item-title">
+                  <a href="#">Best Offers</a>
+                </h4>
+                <p class="aboutwhy-section__item-text text">We provide discounts on the most popular services and on the
+                  seasonal services, so you could definitely receive any help without delay.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="mission-sectiom page-section">
+        <div class="container">
+          <div class="mission-sectiom__inner">
+            <div class="mission-sectiom__left">
+              <h2 class="mission-sectiom__title">OUR MISSION
+              </h2>
+              <div class="mission-sectiom__text text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Adipiscing enim eu turpis egestas. Tellus id interdum velit laoreet id donec
+                  ultrices tincidunt.</p>
+                <p>Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Id interdum velit laoreet id donec.
+                  Posuere sollicitudin aliquam ultrices sagittis orci a. Phasellus faucibus scelerisque eleifend donec
+                  pretium vulputate.</p>
+                <p>Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare. Egestas quis ipsum suspendisse
+                  ultrices gravida dictum fusce ut.</p>
+                <p>Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. Dui sapien eget mi proin. Vitae et
+                  leo duis ut diam quam nulla porttitor massa.</p>
+              </div>
+              <a class="mission-sectiom__left-btn button" href="#">Our projects</a>
+            </div>
+            <div class="mission-sectiom__right">
+              <h2 class="mission-sectiom__title">POPULAR QUESTIONS
+              </h2>
+              <div class="accordion">
+                <div class="accordion__item">
+                  <div class="accordion__title-wrapper">
+                    <i class="accordion__title-img fas fa-chevron-right"></i>
+                    <h6 class="accordion__title">What are the advantages of purchasing a website template?</h6>
+                  </div>
+                  <p class="accordion__text text">The major advantage is price: You get a high quality design for just
+                    $20-$70. You don’t have to hire a web designer or web design studio. Second advantage is time frame:
+                    It usually takes 5-15 days for a good designer to produce a web page of such quality.</p>
+                </div>
+                <div class="accordion__item">
+                  <div class="accordion__title-wrapper">
+                    <i class="accordion__title-img fas fa-chevron-right"></i>
+                    <h6 class="accordion__title">Do you provide any scripts with your templates or could you do some
+                      custom programming?</h6>
+                  </div>
+                  <p class="accordion__text text">Our templates do not include any additional scripts. Newsletter
+                    subscriptions, search fields, forums, image galleries (in HTML versions of Flash products) are
+                    inactive. Basic scripts can be easily added at www.zemez.io If you are not sure that the element
+                    you’re interested in is active please contact our Support Chat for clarification.</p>
+                </div>
+                <div class="accordion__item">
+                  <div class="accordion__title-wrapper">
+                    <i class="accordion__title-img fas fa-chevron-right"></i>
+                    <h6 class="accordion__title">What do I receive when I order a template from Zemez?</h6>
+                  </div>
+                  <p class="accordion__text text">After you complete the payment via our secure form you will receive the
+                    instructions for downloading the product. The source files in the download package can vary based on
+                    the type of the product you have purchased.</p>
+                </div>
+                <div class="accordion__item">
+                  <div class="accordion__title-wrapper">
+                    <i class="accordion__title-img fas fa-chevron-right"></i>
+                    <h6 class="accordion__title">In what formats are your templates available?</h6>
+                  </div>
+                  <p class="accordion__text text">Website templates are available in Photoshop and HTML formats. Fonts are
+                    included with the Photoshop file. In most templates, HTML is compatible with Adobe® Dreamweaver® and
+                    Microsoft® FrontPage®.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="aboutinfo-section page-section">
+        <div class="container">
+          <ul class="aboutinfo-section__list">
+            <li class="aboutinfo-section__item">
+              <div class="aboutinfo-section__img-wrapper">
+                <i class="aboutinfo-section__img fas fa-phone-alt"></i>
+              </div>
+              <div class="aboutinfo-section__info">
+                <h6 class="aboutinfo-section__title">Phones</h6>
+                <p class="aboutinfo-section__text text">
+                  <a href="tel:#">(719) 445-2808; </a>
+                  <a href="tel:#"> (719) 445-2809</a>
+                </p>
+              </div>
+            </li>
+            <li class="aboutinfo-section__item">
+              <div class="aboutinfo-section__img-wrapper">
+                <i class="aboutinfo-section__img fas fa-map-marker-alt"></i>
+              </div>
+              <div class="aboutinfo-section__info">
+                <h6 class="aboutinfo-section__title">Address</h6>
+                <p class="aboutinfo-section__text text">
+                  <a href="#">4578 Marmora Road, Glasgow</a>
+                </p>
+              </div>
+            </li>
+            <li class="aboutinfo-section__item">
+              <div class="aboutinfo-section__img-wrapper">
+                <i class="aboutinfo-section__img fas fa-envelope"></i>
+              </div>
+              <div class="aboutinfo-section__info">
+                <h6 class="aboutinfo-section__title">E-mail</h6>
+                <p class="aboutinfo-section__text text">
+                  <a href="mailto:#">info@demolink.org</a>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="container">
+          <div class="footer__top-inner">
+            <div class="footer__getquote footer__top-item">
+              <h4 class="footer__getquote-title footer-title">GET YOUR QUOTE</h4>
+              <p class="footer__getquote-text text">Get a quote today to receive high-quality windows that fit your home
+                or
+                office the best way!</p>
+              <a class="footer__getquote-btn button" href="#">Request a quote</a>
+            </div>
+            <nav class="footer__menu footer__top-item">
+              <h4 class="footer__menu-title footer-title">SERVICES</h2>
+                <ul class="footer__menu-list">
+                  <li class="footer__menu-item text">
+                    <i class="footer__menu-img fas fa-check"></i>
+                    <a class="footer__menu-link" href="#">Window & Door Measuring
+                    </a>
+                  </li>
+                  <li class="footer__menu-item text">
+                    <i class="footer__menu-img fas fa-check"></i>
+                    <a class="footer__menu-link" href="#">Window Installation</a>
+                  </li>
+                  <li class="footer__menu-item text">
+                    <i class="footer__menu-img fas fa-check"></i>
+                    <a class="footer__menu-link" href="#">Window Replacement</a>
+                  </li>
+                  <li class="footer__menu-item text">
+                    <i class="footer__menu-img fas fa-check"></i>
+                    <a class="footer__menu-link" href="#">Door Installation</a>
+                  </li>
+                  <li class="footer__menu-item text">
+                    <i class="footer__menu-img fas fa-check"></i>
+                    <a class="footer__menu-link" href="#">Door & Window Maintenance</a>
+                  </li>
+                  <li class="footer__menu-item text">
+                    <i class="footer__menu-img fas fa-check"></i>
+                    <a class="footer__menu-link" href="#">Repair Services</a>
+                  </li>
+                </ul>
+            </nav>
+            <div class="footer__contacts footer__top-item">
+              <h4 class="footer__contacts-title footer-title">CONTACTS</h4>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-phone-alt"></i>
+                <span class="footer__contacts-text">Call us:</span>
+                <a class="footer__contacts-phone" href="tel:7194452808">(719) 445-2808</a>
+              </div>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-clock"></i>
+                <span class="footer__contacts-text">Mon-Fri: 10 AM - 7 PM; Sat-Sun: 10 AM - 3 PM</span>
+              </div>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-map-marker-alt"></i>
+                <a class="footer__contacts-text" href="#">4578 Marmora Road, Glasgow</a>
+              </div>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-envelope"></i>
+                <a class="footer__contacts-phone" href="mailto:info@demolink.org">info@demolink.org</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="footer__bottom-inner">
+            <p class="footer__bottom-copy">© 2021 WinSpace. Privacy Policy</p>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <i class="fab fa-facebook-f"></i>
+              </li>
+              <li class="footer__social-item">
+                <i class="fab fa-twitter"></i>
+              </li>
+              <li class="footer__social-item">
+                <i class="fab fa-youtube"></i>
+              </li>
+              <li class="footer__social-item">
+                <i class="fab fa-instagram"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/da5a8f8eab.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

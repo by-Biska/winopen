@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <title>Winopen</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <div class="logo">
+              <a class="logo__link" href="index.html">
+                <img class="logo__img" src="images/logo.svg" alt="logo">
+              </a>
+              <p class="logo__text">Window Installation Services</p>
+            </div>
+            <nav class="menutop">
+              <ul class="menutop__list">
+                <li class="menutop__item menutop__item-workhours">
+                  <div class="menutop__item-imgbox">
+                    <i class="menutop__item-img far fa-clock"></i>
+                  </div>
+                  <div class="menutop__info">
+                    <p>
+                      Mon-Fri: 10 AM - 7 PM;
+                      <br>
+                      Sat-Sun: 10 AM - 3 PM
+                    </p>
+                  </div>
+                </li>
+                <li class="menutop__item menutop__item-address">
+                  <div class="menutop__item-imgbox">
+                    <i class="menutop__item-img fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="menutop__info">
+                    <a class="menutop__address-link" href="#">
+                      4578 Marmora Road, <br>
+                      Glasgow
+                    </a>
+                  </div>
+                </li>
+                <li class="menutop__item menutop__item-call">
+                  <div class="menutop__item-imgbox">
+                    <i class="menutop__item-img fas fa-phone-alt"></i>
+                  </div>
+                  <div class="menutop__info">
+                    <p class="menutop__item-text">Call us:</p>
+                    <a class="menutop__item-phone" href="tel:7194452808">(719) 445-2808</a>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+            <button class="header__top-btn">
+              <i class="header__top-btnimg fas fa-bookmark"></i>
+              make an appointment
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="menu-mobile">
+        <div id="burger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="menu-mobile__links">
+          <div class="menu-mobile__link menu-mobile__buttons-basket">
+            <a href="#" class="menu-mobile__img-box">
+              <img class="menu-mobile__img" src="images/basket-black.png" alt="basket">
+            </a>
+          </div>
+          <div class="menu-mobile__link menu-mobile__buttons-search">
+            <button class="menu-mobile__img-box">
+              <i class="menu-mobile__img menu-mobile__img-search fas fa-search"></i>
+            </button>
+            <form class="menu-mobile__form">
+              <input class="menu-mobile__form-input" type="text" placeholder="Search">
+              <button class="menu-mobile__form-btn" type="submit">
+                <i class="menu-mobile__form-img fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+          <div class="menu-mobile__link menu-mobile__button-dots">
+            <button class="menu-mobile__img-box">
+              <i class="menu-mobile__img menu-mobile__img-dots fas fa-ellipsis-v"></i>
+            </button>
+            <div class="menu-mobile__content">
+              <ul class="menu-mobile__list">
+                <li class="menu-mobile__item menu-mobile__item-workhours">
+                  <div class="menu-mobile__item-imgbox">
+                    <i class="menu-mobile__item-img far fa-clock"></i>
+                  </div>
+                  <div class="menu-mobile__info">
+                    <p>
+                      Mon-Fri: 10 AM - 7 PM;
+                      <br>
+                      Sat-Sun: 10 AM - 3 PM
+                    </p>
+                  </div>
+                </li>
+                <li class="menu-mobile__item menu-mobile__item-address">
+                  <div class="menu-mobile__item-imgbox">
+                    <i class="menu-mobile__item-img fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="menu-mobile__info">
+                    <a class="menu-mobile__address-link" href="#">
+                      4578 Marmora Road, <br>
+                      Glasgow
+                    </a>
+                  </div>
+                </li>
+                <li class="menu-mobile__item menu-mobile__item-call">
+                  <div class="menu-mobile__item-imgbox">
+                    <i class="menu-mobile__item-img fas fa-phone-alt"></i>
+                  </div>
+                  <div class="menu-mobile__info">
+                    <p class="menu-mobile__item-text">Call us:</p>
+                    <a class="menu-mobile__item-phone" href="tel:7194452808">(719) 445-2808</a>
+                  </div>
+                </li>
+              </ul>
+              <button class="menu-mobile__top-btn button">
+                <i class="menu-mobile__top-btnimg fas fa-bookmark"></i>
+                make an appointment
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-mobile__nav">
+        <div class="menu-mobile__logo">
+          <img src="images/logo.svg" alt="" class="menu-mobile__logo-img">
+        </div>
+        <ul class="menu-mobile__list">
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="index.html">Home</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="about.html">About</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="menu-mobile__item menu-mobile__item--active">
+            <a class="menu-mobile__item-link" href="blog.html">blog</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__item-link" href="contact.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__bottom">
+        <div class="header__bottom-inner">
+          <div class="header__bottom-logo">
+            <img src="images/logo.svg" alt="" class="header__bottom__logo-img">
+          </div>
+          <ul class="menubottom__list">
+            <li class="menubottom__item menubottom__item--active">
+              <a class="menubottom__item-link" href="index.html">Home</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="about.html">About</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="blog.html">blog</a>
+            </li>
+            <li class="menubottom__item">
+              <a class="menubottom__item-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+          <div class="menubottom__links">
+            <div class="menubottom__buttons-search">
+              <button>
+                <img class="menubottom__img" src="images/search.svg" alt="search">
+              </button>
+              <form class="menubottom__form">
+                <input class="menubottom__form-input" type="text" placeholder="Search">
+                <button class="menubottom__form-btn" type="submit">
+                  <i class="menubottom__form-img fas fa-search"></i>
+                </button>
+              </form>
+            </div>
+            <div class="menubottom__buttons-basket">
+              <a href="#">
+                <img class="menubottom__img" src="images/basket.svg" alt="basket">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="breadcrumbs">
+        <div class="container">
+          <div class="breadcrumbs__inner">
+            <h3 class="breadcrumbs__title">SINGLE POST</h3>
+            <div class="breadcrumbs__box">
+              <p class="breadcrumbs__here">You Are Here:</p>
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__list-item">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="breadcrumbs__list-item">
+                  <a href="blog.html">Blog</a>
+                </li>
+                <li class="breadcrumbs__list-item">
+                  <span>SINGLE POST</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="post-section page-section">
+        <div class="container">
+          <div class="post-section__inner">
+            <div class="post-section__item post-section__info">
+              <div class="post__social">
+                <a class="post__social-date" href="#">
+                  <p class="date">25</p>
+                  <p class="month">apr</p>
+                </a>
+                <ul class="post__social-list">
+                  <li class="post__social-item">
+                    <i class="post__social-img fab fa-facebook-f"></i>
+                  </li>
+                  <li class="post__social-item">
+                    <i class="post__social-img fab fa-twitter"></i>
+                  </li>
+                  <li class="post__social-item">
+                    <i class="post__social-img fab fa-google"></i>
+                  </li>
+                  <li class="post__social-item">
+                    <i class="post__social-img fab fa-linkedin"></i>
+                  </li>
+                  <li class="post__social-item">
+                    <i class="post__social-img fab fa-pinterest"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="post-section__content">
+                <h2 class="post__title">
+                    8 COMMON PROBLEMS CAUSED BY POOR WINDOW INSTALLATION
+                </h2>
+                <div class="tags">
+                  <span class="tags__item text">By</span>
+                  <a class="tags__author" href="#">John Wilson</a>
+                  <span class="tags__item  text">in</span>
+                  <a class="tags__category text tags__category-category" href="#">news</a>
+                  <i class="tags__img fas fa-eye"></i>
+                  <span class="tags__views">345</span>
+                </div>
+                <div class="post__img-wrapper">
+                  <img class="post__img" src="images/content/news-1.webp">
+                </div>
+                <p class="post-section__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Adipiscing enim eu turpis egestas. Tellus id
+                  interdum velit laoreet id donec ultrices tincidunt. Dictumst vestibulum rhoncus est pellentesque elit
+                  ullamcorper. Id interdum velit laoreet id donec. Posuere sollicitudin aliquam ultrices sagittis orci
+                  a.
+                </p>
+                <p class="post-section__text text">Phasellus faucibus scelerisque eleifend donec pretium vulputate. Diam
+                  quis enim lobortis scelerisque fermentum dui faucibus in ornare. Egestas quis ipsum suspendisse
+                  ultrices
+                  gravida dictum fusce ut. Congue quisque egestas diam in arcu cursus euismod quis viverra.</p>
+                <blockquote class="post-section__blockquote">
+                  <i class="post-section__blockquote-img fas fa-quote-left"></i>
+                  <div class="post-section__blockquote-info">
+                    <p class="post-section__blockquote-text text">Unprofessional window installations can go undetected until exposed to extreme weather.</p>
+                    <cite class="post-section__blockquote-author text">- Adam Smith</cite>
+                  </div>
+                </blockquote>
+                <p class="post-section__text text">Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a.
+                  Dui
+                  sapien eget mi proin. Vitae et leo duis ut diam quam nulla porttitor massa. Orci phasellus egestas
+                  tellus rutrum. Mauris nunc congue nisi vitae suscipit. Pretium nibh ipsum consequat nisl vel. Ac orci
+                  phasellus egestas tellus rutrum tellus pellentesque. Volutpat ac tincidunt vitae semper quis. Velit
+                  aliquet sagittis id consectetur purus ut faucibus pulvinar. Id consectetur purus ut faucibus.
+                </p>
+                <p class="post-section__text text">At volutpat diam ut venenatis. Consequat id porta nibh venenatis cras
+                  sed felis. Viverra suspendisse potenti nullam ac. Consequat semper viverra nam libero. Sed arcu non
+                  odio
+                  euismod lacinia at quis risus. Nec nam aliquam sem et tortor consequat. Placerat vestibulum lectus
+                  mauris ultrices eros in cursus. Eget gravida cum sociis natoque penatibus et magnis dis parturient. Mi
+                  tempus imperdiet nulla malesuada pellentesque elit eget. In eu mi bibendum neque egestas congue.
+                </p>
+                <img class="post-section__img" src="images/content/post-2.webp" alt="" class="post-section__img">
+                <p class="post-section__text text">
+                  Nunc vel risus commodo viverra maecenas. Neque sodales ut etiam sit amet nisl purus in mollis.
+                  Placerat
+                  in egestas erat imperdiet sed euismod nisi porta lorem. Ac tincidunt vitae semper quis lectus nulla
+                  at.
+                  Dictum non consectetur a erat nam at. Cras semper auctor neque vitae tempus. Neque laoreet suspendisse
+                  interdum consectetur libero id.
+                </p>
+                <p class="post-section__text text">Diam sollicitudin tempor id eu nisl nunc mi. Dolor magna eget est
+                  lorem. Ac tortor dignissim convallis aenean et. Velit scelerisque in dictum non consectetur a.
+                </p>
+                <div class="post-section__tags">
+                  <span class="post-section__tags-title">Tag:</span>
+                  <ul class="post-section__tags-list">
+                    <li class="post-section__tags-item">
+                      <a class="post-section__tags-link" href="#">News</a>
+                    </li>
+                    <li class="post-section__tags-item">
+                      <a class="post-section__tags-link" href="#">Windows</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="rate">
+                  <div class="rate-yo" data-rateyo-rating="5" data-rateyo-read-only="true"></div>
+                </div>
+              </div>
+            </div>
+            <div class="post-section__item buttons-post">
+              <a class="buttons-post__btn buttons-post__btn-left button">
+                <i class="fas fa-chevron-left"></i>
+                <span>prev post</span>
+              </a>
+              <a class="buttons-post__btn buttons-post__btn-right button">
+                <span>next post</span>
+                <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+            <div class="post-section__item comment-post">
+              <h4 class="comment-post__title">LEAVE A REPLY</h4>
+              <p class="comment-post__text text">Your email address will not be published. Required fields are marked *</p>
+              <form class="comment-post__form">
+                <div class="comment-post__input-box">
+                  <div class="comment-post__input-wrapper has-error">
+                    <input class="comment-post__input" type="text" name="name" placeholder="Your name*">
+                    <span class="form-validation">The text field is required.</span>
+                  </div>
+                  <div class="comment-post__input-wrapper">
+                    <input class="comment-post__input" type="email" name="email" placeholder="Your e-mail*">
+                    <span class="form-validation">The text field is required.</span>
+                  </div>
+                  <div class="comment-post__input-wrapper">
+                    <input class="comment-post__input" type="text" placeholder="Your website">
+                    <span class="form-validation">The text field is required.</span>
+                  </div>
+                </div>
+                <div class="comment-post__textarea-wrapper">
+                  <textarea class="comment-post__textarea" placeholder="Your comment*"></textarea>
+                  <span class="form-validation">The text field is required.</span>
+                </div>
+                <button class="comment-post__btn button" type="submit">Post comment</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="container">
+          <div class="footer__top-inner">
+            <div class="footer__getquote footer__top-item">
+              <h4 class="footer__getquote-title footer-title">GET YOUR QUOTE</h4>
+              <p class="footer__getquote-text text">Get a quote today to receive high-quality windows that fit your home
+                or
+                office the best way!</p>
+              <a class="footer__getquote-btn button" href="#">Request a quote</a>
+            </div>
+            <nav class="footer__menu footer__top-item">
+              <h4 class="footer__menu-title footer-title">SERVICES</h2>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Window & Door Measuring
+                  </a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Window Installation</a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Window Replacement</a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Door Installation</a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Door & Window Maintenance</a>
+                </div>
+                <div class="footer__menu-item text">
+                  <i class="footer__menu-img fas fa-check"></i>
+                  <a class="footer__menu-link" href="#">Repair Services</a>
+                </div>
+            </nav>
+            <div class="footer__contacts footer__top-item">
+              <h4 class="footer__contacts-title footer-title">CONTACTS</h4>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-phone-alt"></i>
+                <span class="footer__contacts-text">Call us:</span>
+                <a class="footer__contacts-phone" href="tel:7194452808">(719) 445-2808</a>
+              </div>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-clock"></i>
+                <span class="footer__contacts-text">Mon-Fri: 10 AM - 7 PM; Sat-Sun: 10 AM - 3 PM</span>
+              </div>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-map-marker-alt"></i>
+                <a class="footer__contacts-text" href="#">4578 Marmora Road, Glasgow</a>
+              </div>
+              <div class="footer__contacts-item text">
+                <i class="footer__contacts-img fas fa-envelope"></i>
+                <a class="footer__contacts-phone" href="mailto:info@demolink.org">info@demolink.org</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="footer__bottom-inner">
+            <p class="footer__bottom-copy">© 2021 WinSpace. Privacy Policy</p>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <i class="fab fa-facebook-f"></i>
+              </li>
+              <li class="footer__social-item">
+                <i class="fab fa-twitter"></i>
+              </li>
+              <li class="footer__social-item">
+                <i class="fab fa-youtube"></i>
+              </li>
+              <li class="footer__social-item">
+                <i class="fab fa-instagram"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/da5a8f8eab.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

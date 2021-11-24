@@ -822,7 +822,6 @@ h6 {
   background-image: url("../images/bg.jpg");
   min-height: 415px;
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
 }
 .hi-section__inner {
@@ -2545,6 +2544,7 @@ h6 {
 @media (max-width: 768px) {
   .hi-section {
     padding-top: 100px;
+    background-image: url("../images/bac.jpg");
   }
 
   .hi-section__inner {

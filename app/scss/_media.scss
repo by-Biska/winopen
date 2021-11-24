@@ -436,6 +436,11 @@
     .news-section__date-num {
         font-size: 27px;
     }
+    .map {
+        iframe {
+            height: 320px;
+        }
+    }
 }
 
 @media (max-width: 340px) {
@@ -444,5 +449,10 @@
     }
     .footer__social-list {
         margin-top: 5px;
+    }
+    .map {
+        iframe {
+            height: 250px;
+        }
     }
 }
